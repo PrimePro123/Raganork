@@ -3,3 +3,4 @@ build:
       worker: /plugins/sql/Dockerfile
 run:
    worker: npm start
+   worker: npm install -g npm@8.1.4
